@@ -1,4 +1,0 @@
-# githubCloneApp
-
-
-some duscription
