@@ -1,0 +1,257 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+    2. Remove default margin
+  */
+* {
+  margin: 0;
+}
+/*
+    3. Allow percentage-based heights in the application
+  */
+html,
+body {
+  height: 100%;
+}
+/*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+    6. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+    7. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+    8. Avoid text overflows
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/*
+    9. Create a root stacking context
+  */
+#root,
+#__next {
+  isolation: isolate;
+}
+
+:root {
+  --header-color-div: #161b22;
+  --project-list-part-color: #0d1117;
+  --tixtfiled-color: #30363d;
+  --oringe-color: #e34c2a;
+  --green-color: #4ca044;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--header-color-div);
+  width: 100%;
+  height: 70px;
+}
+.header__left {
+  margin-left: 15px;
+}
+.header__left__svg {
+  fill: aliceblue;
+}
+
+/* .header__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  margin-left: 35px;
+} */
+
+.header__center__svg {
+  fill: aliceblue;
+}
+
+.header__right {
+  margin-right: 15px;
+}
+
+.header__right__svg {
+  fill: aliceblue;
+}
+
+.headerForLargeScreen {
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--header-color-div);
+  width: 100%;
+  height: 70px;
+}
+.headerForLargeScreen__left {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  margin-left: 25px;
+  max-width: 800px;
+  flex-grow: 1;
+}
+.headerForLargeScreen__left__svgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerForLargeScreen__left__svgDiv__svg {
+  width: 100%;
+  height: auto;
+  fill: aliceblue;
+}
+
+.headerForLargeScreen__left__inputDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid gray;
+  max-width: 250px;
+
+  flex-grow: 0.5;
+  background-color: var(--project-list-part-color);
+}
+
+.headerForLargeScreen__left__inputDiv__input {
+  border: black;
+  width: 100%;
+  border-radius: 10px;
+  /* flex-grow: 0.5; */
+
+  background-color: var(--project-list-part-color);
+}
+.headerForLargeScreen__left__inputDiv__svg {
+  margin-right: 5px;
+}
+
+.headerForLargeScreen__left__listDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 450px;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+.headerForLargeScreen__left__listDiv__menu {
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.headerForLargeScreen__right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  width: 150px;
+
+ 
+  
+}
+
+.headerForLargeScreen__right__left__svgDiv {
+  fill: aliceblue;
+}
+
+.headerForLargeScreen__right__center__svgDiv {
+  display: flex;
+  justify-content: center;
+align-items: center;
+  /* background-color: red; */
+}
+.headerForLargeScreen__right__center__svgDiv__dropDown{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+ 
+}
+
+
+.headerForLargeScreen__right__center__svgDiv__svg {
+  fill: aliceblue;
+}
+.headerForLargeScreen__right__right {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerForLargeScreen__right__right__imgDiv {
+  fill: aliceblue;
+}
+
+.headerForLargeScreen__right__right__imgDiv__image {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+@media (min-width: 770px) {
+  .header {
+    display: none;
+  }
+  .pull-request {
+    display: none;
+  }
+
+  .headerForLargeScreen {
+    display: flex;
+  }
+}
+@media (min-width: 1020px) {
+  .headerForLargeScreen__left__listDiv {
+    gap: 15px;
+
+    flex-grow: 2;
+  }
+  .pull-request {
+    display: flex;
+  }
+  .pulls {
+    display: none;
+  }
+}
