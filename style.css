@@ -916,13 +916,12 @@ h6 {
   background-color: #111e2f;
   border: 1px solid #57a4ff;
   margin-top: 15px;
- ;
 }
 .Layout-main__leftpart__bottom__left {
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
   color: whitesmoke;
 }
 
@@ -940,8 +939,7 @@ margin-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
- height: auto;
-
+  height: auto;
 }
 .Layout-main__rightpart__about {
   display: flex;
@@ -1087,6 +1085,7 @@ margin-top: 10px;
   width: 300px;
   height: auto;
   border-bottom: 1px solid gray;
+
 }
 .Layout-main__rightpart__languages__h3 {
   color: aliceblue;
@@ -1102,49 +1101,163 @@ margin-top: 10px;
   color: #3862f8;
 }
 
-.Layout-main__rightpart__languages__h3{
+.Layout-main__rightpart__languages__h3 {
   color: aliceblue;
   margin-bottom: 10px;
   font-weight: lighter;
 }
-.Layout-main__rightpart__languages__graph{
+.Layout-main__rightpart__languages__graph {
   display: flex;
   width: 95%;
   height: 5px;
-  
-
-
-
 }
-.Layout-main__rightpart__languages__graph__html{
+.Layout-main__rightpart__languages__graph__html {
   width: 60%;
   height: 100%;
   background-color: red;
   border-radius: 5px 0 0 5px;
- 
 }
-.Layout-main__rightpart__languages__graph__css{
+.Layout-main__rightpart__languages__graph__css {
   width: 40%;
   height: 100%;
   background-color: #563d7c;
-  border-radius:0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
 }
-.Layout-main__rightpart__languages__percentage{
+.Layout-main__rightpart__languages__percentage {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  height: auto;
   margin-top: 10px;
-}
-.Layout-main__rightpart__languages__percentage__div{
 
- 
+  padding: 2px;
 }
-.Layout-main__rightpart__languages__percentage__div__span{
 
+.Layout-main__rightpart__languages__percentage__Htmldiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 120px;
+  height: auto;
+}
+.Layout-main__rightpart__languages__percentage__Htmldiv__circlediv {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(230, 14, 14);
+  border-radius: 50%;
+  color: orange;
+}
+.Layout-main__rightpart__languages__percentage__Htmldiv__span{
   color: whitesmoke;
 }
 
+.Layout-main__rightpart__languages__percentage__Cssdiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 120px;
+  height: auto;
 
+
+}
+
+.Layout-main__rightpart__languages__percentage__Cssdiv__circleSpan{
+  width: 10px;
+  height: 10px;
+  background-color: #563d7c;
+  border-radius: 50%;
+
+}
+.Layout-main__rightpart__languages__percentage__Cssdiv__span{
+  color: whitesmoke;
+}
+.Layout-main__rightpart__suggestedWorkflows{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  height: auto;
+
+}
+.Layout-main__rightpart__suggestedWorkflows__top{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 30px;
+
+}
+.Layout-main__rightpart__suggestedWorkflows__top__h3{
+  color: aliceblue;
+}
+.Layout-main__rightpart__suggestedWorkflows__top__p{
+  font-size: 14px;
+  color: gray;
+}
+.Layout-main__rightpart__suggestedWorkflows__bootom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  border: 1px solid gray;
+  border-radius: 15px;
+ 
+
+}
+.Layout-main__rightpart__suggestedWorkflows__bootom__actionpart{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid gray;
+  margin-bottom: 20px;
+  padding: 20px 10px;
+
+}
+.Layout-main__rightpart__suggestedWorkflows__bootom__actionpart__top{
+  display: flex;
+  justify-content: space-between;
+}
+.Layout-main__rightpart__suggestedWorkflows__bootom__actionpart__top__left{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+ 
+}
+.Layout-main__rightpart__suggestedWorkflows__bootom__actionpart__top__left__svgDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.Layout-main__rightpart__suggestedWorkflows__bootom__actionpart__top__left__svgDiv__svg{
+  fill: black;
+ margin-right: 10px;
+ background-color: aliceblue;
+ 
+
+ 
+}
+.Layout-main__rightpart__suggestedWorkflows__bootom__actionpart__top__left__h3 {
+  color: aliceblue;
+}
+.Layout-main__rightpart__suggestedWorkflows__bootom__actionpart__top__right{
+  background-color: #21262d;
+  padding: 5px 30px;
+  border-radius: 12px;
+  font-size: 16px;
+  color: whitesmoke;
+  
+}
+.Layout-main__rightpart__suggestedWorkflows__bootom__actionpart__bottom{
+ display: flex;
+ justify-content: flex-start;
+ font-size: 16px;
+ color: gray;
+}
 @media (min-width: 770px) {
   .header {
     display: none;
@@ -1170,18 +1283,18 @@ margin-top: 10px;
 }
 
 @media (max-width: 980px) {
- .Layout-main__leftpart__top__left__branchDiv{
-  display: none;
- }
- .Layout-main__leftpart__left__tagDiv{
-  display: none;
- }
- .Layout-main__leftpart__center__top__right__firstLink{
-  display: none;
- }
- .Layout-main__leftpart__center__top__right__secondLink{
-  display: none;
- }
+  .Layout-main__leftpart__top__left__branchDiv {
+    display: none;
+  }
+  .Layout-main__leftpart__left__tagDiv {
+    display: none;
+  }
+  .Layout-main__leftpart__center__top__right__firstLink {
+    display: none;
+  }
+  .Layout-main__leftpart__center__top__right__secondLink {
+    display: none;
+  }
 }
 
 @media (min-width: 1020px) {
@@ -1197,4 +1310,3 @@ margin-top: 10px;
     display: none;
   }
 }
-
