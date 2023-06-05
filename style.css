@@ -1394,15 +1394,18 @@ border: 1px solid #8b949e;
 .Layout-main__rightpart__suggestedWorkflows__bootom__dockerImagePart__top__left__svgDiv{
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 80px;
-  height: 50px;
+  justify-content: flex-start;
+  width: 45px;
+  height: 40px;
   background-color: aliceblue;
   border-radius: 50%;
-  margin-right: 10px;
+  margin-right: 5px;
+  /* background-color: red; */
+
+
   
- 
- 
+  
+
 }
 
 .Layout-main__rightpart__suggestedWorkflows__bootom__dockerImagePart__top__left__h4 {
@@ -1461,25 +1464,109 @@ border: 1px solid #8b949e;
 }
 
 
-.Arrangefooter{
+
+.Footer{
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: auto;
- margin-top: 30px;
+  background-color: red;
+}
+.Footer__top{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  
+  width: 100%;
+  max-width: 1250px;
+  height: auto;
+  background-color: rgb(30, 211, 69);
+
+}
+.Footer__top__left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ /* background-color: #563d7c; */
+ width: 250px;
+ height: auto;
+
+}
+.Footer__top__left__githubSvgDiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: orange; */
+  
+}
+.Footer__top__left__githubSvgDiv__svg{
+margin-right: 10px;
+fill: gray;
+
+}
+.Footer__top__left__githubSvgDiv__span{
+  color: gray;
+}
+.Footer__top__right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Arrangefooter{
+  
+ /* background-color: red; */
  
 }
 .Arrangefooter__footer{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   /* flex-wrap: wrap; */
  
-  width: 100%;
+  width: 90%;
   height: auto;
   max-width: 1216px;
   padding-bottom: 100px;
+  background-color: olive;
+ 
  
   
 }
@@ -1489,6 +1576,7 @@ border: 1px solid #8b949e;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: red;
 
 }
 .Arrangefooter__footer__ArrangeFooterLinks__footerLinks{
@@ -1497,6 +1585,7 @@ border: 1px solid #8b949e;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: blueviolet;
 }
 .Arrangefooter__footer__footerLinks__left{
   display: flex;
