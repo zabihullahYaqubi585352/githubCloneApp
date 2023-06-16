@@ -676,6 +676,7 @@ height: 1px;
   align-items: flex-start;
   width: 100%;
   height: auto;
+
 }
 .Layout-main__leftpart__top__left {
   display: flex;
@@ -816,6 +817,8 @@ height: 1px;
   margin-top: 5px;
   border: 1px solid #323c47;
   border-radius: 5px;
+  
+
 
 
 }
@@ -825,6 +828,7 @@ height: 1px;
   align-items: center;
   margin-top: 10px;
 margin-bottom: 5px;
+
 }
 .Layout-main__leftpart__center__div__link{
 color: #3862f8;
@@ -887,6 +891,7 @@ text-decoration: none;
   align-items: center;
   border-radius: 5px;
   background-color: #0d1117;
+
 
 }
 .Layout-main__leftpart__center__bottom__first {
@@ -1753,17 +1758,21 @@ cursor: pointer;
 
 
 
-
-@media (min-width: 760px) {
-  .Layout-main__leftpart__center__bottom{
-    display:none;
-  }
-}
-
 @media (max-width: 760px) {
   .Layout-main__leftpart__center__div{
     display: flex;
   }
+ 
+  .Layout-main__leftpart__center__bottom {
+    display: none;
+
+  }
+  .header{
+    background-color: red;
+ ;
+  }
+
+ 
   .Layout-main__leftpart__top__right__dootDiv{
     display: flex;
   }
@@ -1818,12 +1827,39 @@ cursor: pointer;
     display: none;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 770px) {
   .header {
     display: none;
   }
   .pull-request {
     display: none;
+  }
+
+
+  .Layout-main__leftpart__top{
+    display: none;
+    
   }
 
   .headerForLargeScreen {
