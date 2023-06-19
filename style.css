@@ -247,8 +247,7 @@ h6 {
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  margin-right: 20px;
-  background-color: rgb(155, 132, 132);
+ 
 
 
 
@@ -1804,7 +1803,7 @@ cursor: pointer;
 
 @media (max-width: 760px) {
   .ProjectNamePart__leftdiv__right{
-    margin-left: 15px;
+    margin-left: 12px;
   }
   .Layout-main__leftpart__center__div{
     display: flex;
