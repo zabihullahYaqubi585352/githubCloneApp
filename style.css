@@ -247,7 +247,9 @@ h6 {
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  background-color: red;
+  margin-right: 20px;
+  background-color: rgb(155, 132, 132);
+
 
 
 }
