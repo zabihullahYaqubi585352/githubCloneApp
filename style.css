@@ -240,19 +240,36 @@ h6 {
   width: 100%;
   background-color: #0d1117;
   padding-bottom: 10px;
+  
 }
 .ProjectNamePart__leftdiv {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+}
+.ProjectNamePart__leftdiv__left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProjectNamePart__leftdiv__right{
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 .ProjectNamePart__leftdiv__svg {
   fill: aliceblue;
   margin-left: 10px;
   margin-right: 8px;
+  display: flex;
 }
 .ProjectNamePart__leftdiv__LinkName {
   color: var(--projectNamePart-color);
+  display: flex;
   font-size: 22px;
   margin-bottom: 5px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -289,6 +306,7 @@ h6 {
   align-items: center;
   margin-top: 15px;
   margin-left: auto;
+ 
 }
 
 .ProjectNamePart__ArrangeFourButtonDiv__PinDiv {
@@ -502,15 +520,20 @@ h6 {
   justify-content: space-between;
   margin-top: 20px;
   border-bottom: 0.1px solid dimgrey;
+  align-items: center;
+  height: 40px;
+  overflow: hidden;
+
+
 }
 
 .githubNavbar__left {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  flex-wrap: nowrap;
   flex-grow: 0;
   flex-shrink: 0;
+
 }
 .githubNavbar__left__codePart {
   display: flex;
@@ -613,16 +636,21 @@ h6 {
   margin: 0 10px;
 }
 .githubNavbar__right {
+  position: absolute;
+  right: 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+white-space: nowrap;
   width: 100px;
   height: 40px;
   fill: gray;
   padding-left: 20px;
-  flex-wrap: nowrap;
   flex-grow: 0;
   flex-shrink: 0;
+  border-bottom: 0.1px solid dimgrey;
+  background-color: #0d1117;
+ 
 }
 
 .ArrangeLayout-main {
@@ -860,6 +888,9 @@ text-decoration: none;
   color: whitesmoke;
   display: flex;
   align-items: center;
+  
+
+
 }
 .Layout-main__leftpart__center__top__right {
   display: flex;
@@ -1308,6 +1339,7 @@ text-decoration: none;
   width: 100%;
   height: auto;
   margin-top: 20px;
+ 
 }
 .Layout-main__rightpart__suggestedWorkflows__top {
   display: flex;
@@ -1337,8 +1369,8 @@ text-decoration: none;
   border: 1px solid gray;
   border-radius: 10px;
   margin-bottom: 20px;
-  padding: 20px 10px;
-  width: 90%;
+  padding: 10px 10px;
+  width: 100%;
   height: auto;
 }
 .Layout-main__rightpart__suggestedWorkflows__bootom__actionpart__top {
@@ -1375,7 +1407,7 @@ text-decoration: none;
   height: auto;
 }
 .Layout-main__rightpart__suggestedWorkflows__bootom__actionpart__top__right__button {
-  width: 60%;
+  width: 70%;
   height: auto;
   border-radius: 10px;
   background-color: #30363d;
@@ -1403,7 +1435,7 @@ text-decoration: none;
   border: 1px solid gray;
   border-radius: 10px;
   margin-bottom: 20px;
-  width: 90%;
+  width: 100%;
   height: auto;
   padding: 20px 10px;
 }
@@ -1443,7 +1475,7 @@ text-decoration: none;
   height: auto;
 }
 .Layout-main__rightpart__suggestedWorkflows__bootom__generatorPart__top__right__button {
-  width: 55%;
+  width: 70%;
   height: auto;
   border-radius: 10px;
   background-color: #30363d;
@@ -1470,7 +1502,7 @@ text-decoration: none;
   border: 1px solid gray;
   border-radius: 10px;
   margin-bottom: 20px;
-  width: 90%;
+  width: 100%;
   height: auto;
   padding: 20px 10px;
 }
@@ -1507,7 +1539,7 @@ text-decoration: none;
   height: auto;
 }
 .Layout-main__rightpart__suggestedWorkflows__bootom__dockerImagePart__top__right__button {
-  width: 55%;
+  width: 70%;
   height: auto;
   border-radius: 10px;
   background-color: #30363d;
@@ -1530,12 +1562,14 @@ text-decoration: none;
 }
 
 .MoreWorkflowsAndSuggestionPart {
-  width: 90%;
+  width: 100%;
   height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
+ 
+  
 }
 
 .MoreWorkflowsAndSuggestionPart__left__link {
@@ -1558,6 +1592,7 @@ text-decoration: none;
   
   
   
+  
  
  
 }
@@ -1565,29 +1600,34 @@ text-decoration: none;
 .Footer__arrangeLeftAndRightDiv {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 100%;
   height: auto;
   max-width: 1210px;
   padding-bottom: 50px;
+ 
 
 
 }
 
 .Footer__arrangeLeftAndRightDiv__left {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   white-space: nowrap;
-  flex-shrink: 1;
-  width: 30%;
-  height: auto;
+  /* flex-shrink: 1; */
+  /* width: 30%; */
+  /* height: auto; */
+ 
 }
 .Footer__arrangeLeftAndRightDiv__left__githubSvgDiv {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-
+  justify-content: center;
   margin-right: 5px;
+  width: 35px;
+  height: auto;
+  
 }
 .Footer__arrangeLeftAndRightDiv__left__githubSvgDiv__svg {
   margin-right: 10px;
@@ -1596,6 +1636,8 @@ text-decoration: none;
 .Footer__arrangeLeftAndRightDiv__left__span {
   color: gray;
   font-size: 12px;
+ 
+
 }
 .Footer__arrangeLeftAndRightDiv__right {
   display: flex;
@@ -1603,19 +1645,18 @@ text-decoration: none;
   align-items: center;
   width: 100%;
   height: auto;
+ 
 
 }
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 100%;
   height: auto;
   margin-left: 10px;
   flex-shrink: 1;
-  
-  margin-top: 10px;
-
+  background-color: red;
 
 }
 
@@ -1762,16 +1803,19 @@ cursor: pointer;
   .Layout-main__leftpart__center__div{
     display: flex;
   }
+
+  
+ 
  
   .Layout-main__leftpart__center__bottom {
     display: none;
 
   }
-  .header{
-    background-color: red;
-
+  
+  .Layout-main{
+    background-color: #000000;
   }
-
+ 
  
   .Layout-main__leftpart__top__right__dootDiv{
     display: flex;
@@ -1829,25 +1873,6 @@ cursor: pointer;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 770px) {
   .header {
     display: none;
@@ -1855,8 +1880,7 @@ cursor: pointer;
   .pull-request {
     display: none;
   }
-
-
+  
   .Layout-main__leftpart__top{
     display: none;
     
@@ -1865,10 +1889,12 @@ cursor: pointer;
   .headerForLargeScreen {
     display: flex;
   }
-
+ 
   .ProjectNamePart__ArrangeFourButtonDiv {
     display: flex;
+    
   }
+ 
 
   .StartAndForkPart__rightdiv {
     display: none;
@@ -1877,6 +1903,7 @@ cursor: pointer;
     display: none;
   }
 }
+
 
 @media (max-width: 980px) {
   .Layout-main__leftpart__top__left__branchDiv {
@@ -1895,6 +1922,7 @@ cursor: pointer;
     background-color: #161b24;
    
   }
+ 
 }
 
 @media (min-width: 1020px) {
@@ -1909,4 +1937,5 @@ cursor: pointer;
   .pulls {
     display: none;
   }
+  
 }
