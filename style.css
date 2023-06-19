@@ -1804,7 +1804,7 @@ cursor: pointer;
 
 @media (max-width: 760px) {
   .ProjectNamePart__leftdiv__right{
-    margin-left: 10px;
+    margin-left: 15px;
   }
   .Layout-main__leftpart__center__div{
     display: flex;
