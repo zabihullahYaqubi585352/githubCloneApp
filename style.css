@@ -527,6 +527,7 @@ h6 {
   align-items: center;
   height: 40px;
   overflow: hidden;
+  overflow-x: scroll; 
 
 
 }
@@ -535,8 +536,13 @@ h6 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  position: relative;
+  overflow: hidden;
   flex-grow: 0;
   flex-shrink: 0;
+  /* width: 100%;
+  height: auto; */
+
 
 }
 .githubNavbar__left__codePart {
@@ -879,7 +885,10 @@ text-decoration: none;
 }
 .Layout-main__leftpart__center__top__left {
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin-left: 7px;
+
 }
 .Layout-main__leftpart__center__top__left__image {
   border-radius: 50%;
@@ -888,13 +897,32 @@ text-decoration: none;
   margin-right: 10px;
 }
 .Layout-main__leftpart__center__top__left__link {
+ 
   text-decoration: none;
   color: whitesmoke;
   display: flex;
   align-items: center;
+  /* white-space: nowrap; 
+  width: 92px; 
+  text-overflow: ellipsis; */
+}
+.Layout-main__leftpart__center__top__left__button{
+  display: flex;
   
-
-
+  height: 12px;
+  font-size: 12px;
+  line-height: 6px;
+color:aliceblue;
+  vertical-align: middle;
+  padding: 0px 5px 5px;
+  text-decoration: none;
+  background-color: #21262d;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 1px;
+  margin-left: 5px;
 }
 .Layout-main__leftpart__center__top__right {
   display: flex;
