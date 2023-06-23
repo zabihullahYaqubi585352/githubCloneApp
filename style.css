@@ -1588,7 +1588,7 @@ align-items: center;
   height: auto;
   max-width: 1210px;
   padding-bottom: 50px;
-  background-color: red;
+ 
 }
 
 .Footer__arrangeLeftAndRightDiv__left {
@@ -1619,17 +1619,18 @@ align-items: center;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 90%;
+  width: 95%;
   height: auto;
-  background-color: olive;
+  
 }
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv {
   display: flex;
-  justify-content: space-between;
+  justify-content:flex-start;
   align-items: center;
   width: 100%;
   height: auto;
   flex-wrap: wrap;
+  gap: 10px;
   
   
 }
