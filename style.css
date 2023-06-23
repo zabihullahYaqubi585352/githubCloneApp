@@ -1831,9 +1831,7 @@ display: flex;
 
 @media (min-width: 770px) {
 
-  .githubNavbar__right{
-    display: none;
-  }
+
   .header {
     display: none;
   }
@@ -1900,6 +1898,14 @@ display: flex;
   display:flex;
  justify-content: flex-start;
 
+
  
  }
 }
+@media (max-width: 500px) {
+  .githubNavbar__right{
+   display:none;
+  
+  }
+ }
+ 
