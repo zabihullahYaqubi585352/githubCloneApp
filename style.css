@@ -1881,4 +1881,22 @@ h6 {
     gap: 12px;
     
   }
+  .header{
+    background-color: aliceblue;
+  }
+  .ProjectNamePart{
+    background-color: aliceblue;
+  }
+  .githubNavbar{
+    background-color: aliceblue;
+  }
+  .Layout-main{
+    background-color: aliceblue;
+  }
+  .footerBootom{
+    background-color: aliceblue;
+  }
+  .Footer{
+    background-color: aliceblue;
+  }
 }
