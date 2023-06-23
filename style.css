@@ -1752,6 +1752,9 @@ align-items: center;
   .Layout-main__leftpart__center__top__left__p{
     width: 100px;
   }
+  .githubNavbar__right{
+    display: none;
+  }
  
 }
 @media (max-width: 760px) {
