@@ -1595,7 +1595,8 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  white-space: nowrap;
+  flex-wrap: wrap;
+  
 
 }
 .Footer__arrangeLeftAndRightDiv__left__githubSvgDiv {
@@ -1628,6 +1629,7 @@ align-items: center;
   align-items: center;
   width: 100%;
   height: auto;
+  flex-wrap: wrap;
   
   
 }
@@ -1636,6 +1638,7 @@ align-items: center;
   color: #3862f8;
   font-size: 12px;
   white-space: nowrap;
+  flex-wrap: wrap;
 }
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv__privacy {
   color: #3862f8;
@@ -1685,7 +1688,8 @@ align-items: center;
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv__about {
   color: #3862f8;
   font-size: 12px;
- 
+  flex-wrap: wrap;
+
 }
 
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv__terms:hover {
