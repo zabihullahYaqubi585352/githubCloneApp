@@ -241,26 +241,20 @@ h6 {
   background-color: #0d1117;
   padding-bottom: 10px;
   margin-top: 10px;
-  
 }
 .ProjectNamePart__leftdiv {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-
- 
-
-
-
 }
-.ProjectNamePart__leftdiv__left{
+.ProjectNamePart__leftdiv__left {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.ProjectNamePart__leftdiv__right{
+.ProjectNamePart__leftdiv__right {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -310,7 +304,6 @@ h6 {
   align-items: center;
   margin-top: 15px;
   margin-left: auto;
- 
 }
 
 .ProjectNamePart__ArrangeFourButtonDiv__PinDiv {
@@ -356,16 +349,14 @@ h6 {
   margin-left: 10px;
 }
 
-.ProjectNamePart__ArrangeFourButtonDiv__UnwatchDiv__svgdiv{
+.ProjectNamePart__ArrangeFourButtonDiv__UnwatchDiv__svgdiv {
   width: 30px;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-
-
 }
-.ProjectNamePart__ArrangeFourButtonDiv__UnwatchDiv__svgdiv{
+.ProjectNamePart__ArrangeFourButtonDiv__UnwatchDiv__svgdiv {
   fill: gray;
 }
 
@@ -381,27 +372,25 @@ h6 {
   margin-left: 10px;
   margin-right: 10px;
   color: rgb(75, 74, 74);
- 
 }
 
 .ProjectNamePart__ArrangeFourButtonDiv__forkDiv__span {
   margin: 0 10px;
-  color: rgb(75, 74, 74);;
+  color: rgb(75, 74, 74);
 }
 .ProjectNamePart__ArrangeFourButtonDiv__forkDiv > svg {
   margin-right: 8px;
-  fill: rgb(75, 74, 74);;
+  fill: rgb(75, 74, 74);
 }
-.ProjectNamePart__ArrangeFourButtonDiv__forkDiv__svgdiv{
+.ProjectNamePart__ArrangeFourButtonDiv__forkDiv__svgdiv {
   width: 30px;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   border-left: 1px solid rgb(85, 80, 80);
-
 }
-.ProjectNamePart__ArrangeFourButtonDiv__forkDiv__svgdiv{
+.ProjectNamePart__ArrangeFourButtonDiv__forkDiv__svgdiv {
   fill: gray;
 }
 .ProjectNamePart__ArrangeFourButtonDiv__starDiv {
@@ -424,7 +413,7 @@ h6 {
 .ProjectNamePart__ArrangeFourButtonDiv__starDiv > svg {
   margin-right: 8px;
 }
-.ProjectNamePart__ArrangeFourButtonDiv__starDiv__svgdiv{
+.ProjectNamePart__ArrangeFourButtonDiv__starDiv__svgdiv {
   width: 30px;
   height: 100%;
   display: flex;
@@ -462,8 +451,6 @@ h6 {
 }
 .StartAndForkPart__middlediv__forksText__span {
   margin: 0 8px;
- 
-  
 }
 
 .StartAndForkPart__rightdiv {
@@ -474,7 +461,6 @@ h6 {
   margin-top: 30px;
   width: 100%;
   height: auto;
-  
 }
 .StartAndForkPart__rightdiv__startButton {
   display: flex;
@@ -489,7 +475,6 @@ h6 {
   margin-left: 10px;
   margin-right: 12px;
   padding: 2px 0;
- 
 }
 
 .StartAndForkPart__rightdiv__startButton__span {
@@ -527,12 +512,8 @@ h6 {
   align-items: center;
   height: 40px;
   overflow: hidden;
-  overflow-x: scroll; 
-
-
+  overflow-x: scroll;
 }
-
-
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 .githubNavbar::-webkit-scrollbar {
@@ -541,30 +522,24 @@ h6 {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .githubNavbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
-
 
 .githubNavbar__left {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   position: relative;
-  /* overflow: hidden; */
   flex-grow: 0;
   flex-shrink: 0;
-  /* width: 100%;
-  height: auto; */
-
-
+ 
 }
 .githubNavbar__left__codePart {
   display: flex;
   align-items: center;
   fill: gray;
   color: aliceblue;
-
   margin-left: 20px;
 }
 
@@ -655,24 +630,24 @@ h6 {
   align-items: center;
   fill: gray;
   color: aliceblue;
+  margin-right:20px ;
 }
 .githubNavbar__left__settings__span {
   margin: 0 10px;
+  
 }
 .githubNavbar__right {
   position: absolute;
   right: 0;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
-white-space: nowrap;
+  white-space: nowrap;
   width: 35px;
   height: 20px;
-  fill: gray;
-  border-bottom: 0.1px solid dimgrey;
-  background-color: #4a4b4d;
-  margin-right: 10px;
- 
+  fill: aliceblue;
+  background-color:#0d1117;
+
 }
 
 .ArrangeLayout-main {
@@ -681,24 +656,19 @@ white-space: nowrap;
   align-items: center;
   width: 100%;
   height: auto;
-
- 
-
 }
-.lineDiv{
- 
+.lineDiv {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   max-width: 1210px;
   padding: 2px;
-
 }
-.line{
-width: 100%;
-height: 1px;
-/* border: 1px solid gray; */
+.line {
+  width: 100%;
+  height: 1px;
+  /* border: 1px solid gray; */
 }
 .Layout-main {
   display: flex;
@@ -707,9 +677,6 @@ height: 1px;
   max-width: 1216px;
   border-bottom: 1px solid rgb(75, 71, 71);
   /* margin: 0 20px; */
-  
-
-  
 }
 .Layout-main__leftpart {
   display: flex;
@@ -718,7 +685,6 @@ height: 1px;
   align-items: flex-start;
   padding: 20px;
   flex-grow: 1;
- 
 }
 .Layout-main__leftpart__top {
   display: flex;
@@ -726,14 +692,12 @@ height: 1px;
   align-items: flex-start;
   width: 100%;
   height: auto;
-
 }
 .Layout-main__leftpart__top__left {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
- 
 }
 .Layout-main__leftpart__top__left__main {
   display: flex;
@@ -746,9 +710,9 @@ height: 1px;
   font-size: 16px;
   font-weight: bold;
   fill: aliceblue;
-  font-family:  'Times New Roman', Times, serif
+  font-family: "Times New Roman", Times, serif;
 }
-.Layout-main__leftpart__top__left__main__svgDiv{
+.Layout-main__leftpart__top__left__main__svgDiv {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -791,10 +755,9 @@ height: 1px;
 .Layout-main__leftpart__top__right {
   display: flex;
   gap: 10px;
-
 }
 
-.Layout-main__leftpart__top__right__dootDiv{
+.Layout-main__leftpart__top__right__dootDiv {
   display: none;
   justify-content: center;
   align-items: center;
@@ -803,7 +766,7 @@ height: 1px;
   padding: 5px 15px;
   background-color: #30363d;
 }
-.Layout-main__leftpart__top__right__dootDiv__dootSvg{
+.Layout-main__leftpart__top__right__dootDiv__dootSvg {
   fill: gray;
 }
 .Layout-main__leftpart__top__right__gotoFileDiv {
@@ -814,7 +777,6 @@ height: 1px;
   border-radius: 8px;
   padding: 2px 10px;
   color: rgb(224, 218, 218);
-  
 }
 .Layout-main__leftpart__top__right__addFileDiv {
   display: flex;
@@ -826,7 +788,7 @@ height: 1px;
   padding: 2px 5px;
   color: rgb(224, 218, 218);
 }
-.Layout-main__leftpart__top__right__addFileDiv__dropdownSvg{
+.Layout-main__leftpart__top__right__addFileDiv__dropdownSvg {
   fill: aliceblue;
   margin-left: 2px;
 }
@@ -839,17 +801,15 @@ height: 1px;
   border-radius: 10px;
   padding: 2px 10px;
   color: whitesmoke;
-  
- 
 }
-.Layout-main__leftpart__top__right__codeDiv__span{
+.Layout-main__leftpart__top__right__codeDiv__span {
   font-size: 18px;
 }
-.Layout-main__leftpart__top__right__codeDiv__dropdownSvg{
+.Layout-main__leftpart__top__right__codeDiv__dropdownSvg {
   fill: aliceblue;
   margin-left: 5px;
 }
-.Layout-main__leftpart__top__right__codeDiv__tagsSvg{
+.Layout-main__leftpart__top__right__codeDiv__tagsSvg {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -867,22 +827,19 @@ height: 1px;
   margin-top: 5px;
   border: 1px solid #323c47;
   border-radius: 5px;
-  
-
-
-
 }
-.Layout-main__leftpart__center__div{
+.Layout-main__leftpart__center__div {
   display: none;
   justify-content: center;
   align-items: center;
   margin-top: 10px;
-margin-bottom: 5px;
+  margin-bottom: 5px;
 
 }
-.Layout-main__leftpart__center__div__link{
-color: #3862f8;
-text-decoration: none;
+.Layout-main__leftpart__center__div__link {
+  color: #3862f8;
+  text-decoration: none;
+ 
 }
 
 .Layout-main__leftpart__center__top {
@@ -893,7 +850,6 @@ text-decoration: none;
   height: 50px;
   background-color: #1d232b;
   border-bottom: 1px solid #2f3944;
-
 }
 .Layout-main__leftpart__center__top__left {
   display: flex;
@@ -908,39 +864,38 @@ text-decoration: none;
   height: 30px;
   margin-right: 10px;
 }
-.Layout-main__leftpart__center__top__left__link {
- 
-  text-decoration: none;
+.Layout-main__leftpart__center__top__left__p {
   color: whitesmoke;
-  display: flex;
-  align-items: center;
-  /* white-space: nowrap; 
-  width: 92px; 
-  text-overflow: ellipsis; */
-}
-.Layout-main__leftpart__center__top__left__button{
-  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
   
-  height: 12px;
-  font-size: 12px;
-  line-height: 6px;
-color:aliceblue;
-  vertical-align: middle;
-  padding: 0px 5px 5px;
-  text-decoration: none;
-  background-color: #21262d;
-  border-width: 0px;
-  border-style: initial;
-  border-color: initial;
-  border-image: initial;
-  border-radius: 1px;
-  margin-left: 5px;
 }
+.Layout-main__leftpart__center__top__left__div{
+display: none;
+justify-content: center;
+align-items: center;
+}
+.Layout-main__leftpart__center__top__left__div__svg {
+  fill: aliceblue;
+  margin: 0 8px;
+  padding: 0 5px;
+  border-radius: 2px;
+  background-color: #6d6e70;
+  
+  
+ 
+
+}
+
 .Layout-main__leftpart__center__top__right {
   display: flex;
   align-items: center;
-  gap: 20px;
+  flex-grow: 0;
+  flex-shrink: 0;
   margin-right: 5px;
+  white-space: nowrap;
 }
 .Layout-main__leftpart__center__top__right__firstLink {
   color: #626c79;
@@ -966,8 +921,6 @@ color:aliceblue;
   align-items: center;
   border-radius: 5px;
   background-color: #0d1117;
-
-
 }
 .Layout-main__leftpart__center__bottom__first {
   display: flex;
@@ -977,7 +930,6 @@ color:aliceblue;
   height: auto;
   border-bottom: 1px solid#242a33;
   margin-bottom: 15px;
- 
 }
 .Layout-main__leftpart__center__bottom__first__left {
   display: flex;
@@ -1046,7 +998,6 @@ color:aliceblue;
   height: auto;
   border-bottom: 1px solid#242a33;
   margin-bottom: 15px;
-
 }
 .Layout-main__leftpart__center__bottom__third__left {
   display: flex;
@@ -1119,7 +1070,6 @@ color:aliceblue;
   background-color: #111e2f;
   border: 1px solid #57a4ff;
   margin-top: 15px;
-
 }
 .Layout-main__leftpart__bottom__left {
   display: flex;
@@ -1137,7 +1087,6 @@ color:aliceblue;
   padding: 3px 5px;
   background-color: #4ca044;
   color: whitesmoke;
- 
 }
 
 .Layout-main__rightpart {
@@ -1383,7 +1332,6 @@ color:aliceblue;
   width: 100%;
   height: auto;
   margin-top: 20px;
- 
 }
 .Layout-main__rightpart__suggestedWorkflows__top {
   display: flex;
@@ -1612,8 +1560,6 @@ color:aliceblue;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
- 
-  
 }
 
 .MoreWorkflowsAndSuggestionPart__left__link {
@@ -1623,7 +1569,6 @@ color:aliceblue;
 .MoreWorkflowsAndSuggestionPart__right {
   color: gray;
   font-size: 14px;
-  
 }
 
 .Footer {
@@ -1632,13 +1577,7 @@ color:aliceblue;
   align-items: center;
   width: 100%;
   height: auto;
-  padding-top:  50px;
-  
-  
-  
-  
- 
- 
+  padding-top: 50px;
 }
 
 .Footer__arrangeLeftAndRightDiv {
@@ -1649,9 +1588,7 @@ color:aliceblue;
   height: auto;
   max-width: 1210px;
   padding-bottom: 50px;
- 
-
-
+  background-color: red;
 }
 
 .Footer__arrangeLeftAndRightDiv__left {
@@ -1659,10 +1596,7 @@ color:aliceblue;
   justify-content: center;
   align-items: center;
   white-space: nowrap;
-  /* flex-shrink: 1; */
-  /* width: 30%; */
-  /* height: auto; */
- 
+
 }
 .Footer__arrangeLeftAndRightDiv__left__githubSvgDiv {
   display: flex;
@@ -1671,7 +1605,6 @@ color:aliceblue;
   margin-right: 5px;
   width: 35px;
   height: auto;
-  
 }
 .Footer__arrangeLeftAndRightDiv__left__githubSvgDiv__svg {
   margin-right: 10px;
@@ -1680,17 +1613,14 @@ color:aliceblue;
 .Footer__arrangeLeftAndRightDiv__left__span {
   color: gray;
   font-size: 12px;
- 
-
 }
 .Footer__arrangeLeftAndRightDiv__right {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: 90%;
   height: auto;
- 
-
+  background-color: olive;
 }
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv {
   display: flex;
@@ -1698,17 +1628,14 @@ color:aliceblue;
   align-items: center;
   width: 100%;
   height: auto;
-  margin-left: 10px;
-  flex-shrink: 1;
-  background-color: red;
-
+  
+  
 }
 
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv__terms {
   color: #3862f8;
   font-size: 12px;
   white-space: nowrap;
-
 }
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv__privacy {
   color: #3862f8;
@@ -1738,88 +1665,73 @@ color:aliceblue;
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv__pricing {
   color: #3862f8;
   font-size: 12px;
-  white-space: nowrap;
+  
 }
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv__api {
   color: #3862f8;
   font-size: 12px;
-  white-space: nowrap;
+
 }
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv__training {
   color: #3862f8;
   font-size: 12px;
-  white-space: nowrap;
+ 
 }
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv__blog {
   color: #3862f8;
   font-size: 12px;
-  white-space: nowrap;
+ 
 }
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv__about {
   color: #3862f8;
   font-size: 12px;
-  white-space: nowrap;
+ 
 }
-
-
 
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv__terms:hover {
- 
-text-decoration: underline;
-cursor: pointer;
+  text-decoration: underline;
+  cursor: pointer;
 }
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv__privacy:hover {
-  
-text-decoration: underline;
-cursor: pointer;
+  text-decoration: underline;
+  cursor: pointer;
 }
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv__security:hover {
-   
-text-decoration: underline;
-cursor: pointer;
+  text-decoration: underline;
+  cursor: pointer;
 }
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv__status:hover {
- 
   text-decoration: underline;
   cursor: pointer;
 }
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv__docs:hover {
- 
   text-decoration: underline;
   cursor: pointer;
 }
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv__contactGitHub:hover {
- 
   text-decoration: underline;
   cursor: pointer;
 }
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv__pricing:hover {
- 
   text-decoration: underline;
   cursor: pointer;
 }
-.Footer__arrangeLeftAndRightDiv__right__Linkdiv__api:hover{
- 
+.Footer__arrangeLeftAndRightDiv__right__Linkdiv__api:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 .Footer__arrangeLeftAndRightDiv__right__Linkdiv__training:hover {
-  
-text-decoration: underline;
-cursor: pointer;
-}
-.Footer__arrangeLeftAndRightDiv__right__Linkdiv__blog:hover {
-  
-text-decoration: underline;
-cursor: pointer;
-}
-.Footer__arrangeLeftAndRightDiv__right__Linkdiv__about {
- 
   text-decoration: underline;
   cursor: pointer;
 }
-
-
+.Footer__arrangeLeftAndRightDiv__right__Linkdiv__blog:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.Footer__arrangeLeftAndRightDiv__right__Linkdiv__about:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 .footerBootom {
   display: none;
@@ -1827,68 +1739,65 @@ cursor: pointer;
   align-items: center;
   width: 100;
   margin-top: 20px;
-  
-
 }
-.footerBootom__div__svg{
+.footerBootom__div__svg {
   fill: gray;
 }
-.footerBootom__div__span{
+.footerBootom__div__span {
   color: gray;
   margin-left: 10px;
   font-size: 14px;
+}
+@media (max-width: 500px) {
+  .Layout-main__leftpart__center__top__left__p{
+    width: 100px;
+  }
  
 }
-
-
-
-
 @media (max-width: 760px) {
-  .ProjectNamePart__leftdiv__right{
+
+
+  .Layout-main__leftpart__center__top__left__div{
+display: flex;
+
+  }
+  
+  .ProjectNamePart__leftdiv__right {
     margin-left: 12px;
   }
-  .Layout-main__leftpart__center__div{
+  .Layout-main__leftpart__center__div {
     display: flex;
   }
 
-  
- 
- 
   .Layout-main__leftpart__center__bottom {
     display: none;
-
   }
-  
-  .Layout-main{
+
+  .Layout-main {
     background-color: #000000;
   }
- 
- 
-  .Layout-main__leftpart__top__right__dootDiv{
+
+  .Layout-main__leftpart__top__right__dootDiv {
     display: flex;
   }
-  .Layout-main__leftpart__top__right__gotoFileDiv{
+  .Layout-main__leftpart__top__right__gotoFileDiv {
     display: none;
   }
-.Layout-main__leftpart__top__right__addFileDiv{
-  display: none;
-}
-.Layout-main__leftpart__top__right__codeDiv{
-  display: none;
-}
+  .Layout-main__leftpart__top__right__addFileDiv {
+    display: none;
+  }
+  .Layout-main__leftpart__top__right__codeDiv {
+    display: none;
+  }
   .footerBootom {
     display: flex;
-
-   
   }
   .Footer__arrangeLeftAndRightDiv {
-   
     padding-bottom: 0px;
   }
 
   .Footer__arrangeLeftAndRightDiv__left {
     display: none;
-   
   }
   .Layout-main {
     display: flex;
@@ -1919,7 +1828,6 @@ cursor: pointer;
   }
 }
 
-
 @media (min-width: 770px) {
   .header {
     display: none;
@@ -1927,21 +1835,18 @@ cursor: pointer;
   .pull-request {
     display: none;
   }
-  
-  .Layout-main__leftpart__top{
+
+  .Layout-main__leftpart__top {
     display: none;
-    
   }
 
   .headerForLargeScreen {
     display: flex;
   }
- 
+
   .ProjectNamePart__ArrangeFourButtonDiv {
     display: flex;
-    
   }
- 
 
   .StartAndForkPart__rightdiv {
     display: none;
@@ -1951,8 +1856,8 @@ cursor: pointer;
   }
 }
 
-
 @media (max-width: 980px) {
+  
   .Layout-main__leftpart__top__left__branchDiv {
     display: none;
   }
@@ -1967,12 +1872,11 @@ cursor: pointer;
   }
   .Layout-main {
     background-color: #161b24;
-   
   }
- 
 }
 
 @media (min-width: 1020px) {
+ 
   .headerForLargeScreen__left__listDiv {
     gap: 15px;
 
@@ -1984,5 +1888,13 @@ cursor: pointer;
   .pulls {
     display: none;
   }
-  
+}
+
+@media (max-width: 1020px) {
+ .githubNavbar__right{
+  display:flex;
+ justify-content: flex-start;
+
+ 
+ }
 }
