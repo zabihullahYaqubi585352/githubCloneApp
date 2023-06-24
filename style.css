@@ -1720,7 +1720,7 @@ h6 {
   justify-content: center;
   align-items: center;
   width: 100;
-  margin-top: 20px;
+  padding-bottom: 40px;
 }
 .footerBootom__div__svg {
   fill: gray;
@@ -1879,6 +1879,5 @@ h6 {
   .Footer__arrangeLeftAndRightDiv__right__Linkdiv {
     justify-content: center;
     gap: 12px;
-    
   }
- }
+}
