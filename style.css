@@ -1879,5 +1879,6 @@ h6 {
   .Footer__arrangeLeftAndRightDiv__right__Linkdiv {
     justify-content: center;
     gap: 12px;
+    padding-bottom: 10px;
   }
 }
